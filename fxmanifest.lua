@@ -6,8 +6,8 @@ description 'MSK phoneContract'
 version '1.0'
 
 shared_scripts {
-	'translation.lua',
-	'config.lua'
+	'config.lua',
+	'translation.lua'
 }
 
 server_scripts {
