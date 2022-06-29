@@ -11,7 +11,7 @@ Citizen.CreateThread(function()
 
 				if hasItem then
 					xPlayer.removeAccountMoney(Config.Account, Config.Price)
-					TriggerClientEvent('esx:showAdvancedNotification', xPlayer.source, Translation[Config.Locale]['title'], Translation[Config.Locale]['subtitle'], Translation[Config.Locale]['message'], Config.Icon, 1)
+					TriggerClientEvent('esx:showAdvancedNotification', xPlayer.source, Translation[Config.Locale]['title'], Translation[Config.Locale]['subtitle'], Translation[Config.Locale]['message'], Config.Icon, 2)
 				end
 			end
         end
