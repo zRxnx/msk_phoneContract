@@ -7,7 +7,7 @@ Citizen.CreateThread(function()
             local xPlayer = ESX.GetPlayerFromId(players)
 
 			if xPlayer then
-				local hasItem = getInventoryItem(Config.Item).count
+				local hasItem = xPlayer.getInventoryItem(Config.Item).count
 
 				if hasItem then
 					xPlayer.removeAccountMoney(Config.Account, Config.Price)
