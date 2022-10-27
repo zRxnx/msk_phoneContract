@@ -1,7 +1,6 @@
 Config = {}
 ----------------------------------------------------------------
 Config.Locale = 'en' -- Select your language (en, de, fr, es)
-Config.getSharedObject = 'esx:getSharedObject'
 ----------------------------------------------------------------
 Config.Item = 'phone' -- Enter the name of your phone item
 ----------------------------------------------------------------

@@ -1,7 +1,6 @@
-ESX = nil
-TriggerEvent(Config.getSharedObject, function(obj) ESX = obj end)
+ESX = exports["es_extended"]:getSharedObject()
 
-Citizen.CreateThread(function()
+CreateThread(function()
     while true do
         for k,players in pairs(GetPlayers()) do
             local xPlayer = ESX.GetPlayerFromId(players)
@@ -16,6 +15,6 @@ Citizen.CreateThread(function()
 			end
         end
 
-        Citizen.Wait(Config.Interval * 1000 * 60)
+        Wait(Config.Interval * 1000 * 60)
     end
 end)
