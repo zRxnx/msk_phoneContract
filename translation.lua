@@ -3,25 +3,25 @@ Translation = {}
 Translation = {
 
     ['en'] = {
-        ['message'] = 'You have paid ~g~' .. Config.Price .. '$ ~s~for your ~y~phone contract.',
+        ['message'] = 'You have paid ~g~%s$ ~s~for your ~y~phone contract.',
         ['title'] = 'Phone Contract',
         ['subtitle'] = 'Fees paid',
     },
     
     ['de'] = {
-        ['message'] = 'Du hast ~g~' .. Config.Price .. '$ ~s~für deinen ~y~Handyvertrag bezahlt.',
+        ['message'] = 'Du hast ~g~%s$ ~s~für deinen ~y~Handyvertrag bezahlt.',
         ['title'] = 'Handyvertrag',
         ['subtitle'] = 'Rechnung bezahlt',
     },
 
     ['fr'] = {
-        ['message'] = 'Tu as ~g~' .. Config.Price .. '$ ~s~pour ton ~y~Contrat de téléphone portable payé.',
+        ['message'] = 'Tu as ~g~%s$ ~s~pour ton ~y~Contrat de téléphone portable payé.',
         ['title'] = 'Contrat de téléphonie mobile',
         ['subtitle'] = 'Frais payés',
     },
 
     ['es'] = {
-        ['message'] = 'Usted tiene ~g~' .. Config.Price .. '$ ~s~para su ~y~Contrato de telefonía móvil pagado.',
+        ['message'] = 'Usted tiene ~g~%s$ ~s~para su ~y~Contrato de telefonía móvil pagado.',
         ['title'] = 'Contrato de telefonía móvil',
         ['subtitle'] = 'Tarifa pagadas',
     }
